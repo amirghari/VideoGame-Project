@@ -2,7 +2,7 @@ import { Game } from '../Hooks/useGames'
 import { Card, CardBody, Heading, Image } from '@chakra-ui/react'
 import PlatformIcons from './PlatformIcons'
 
-const GameCard = ({ game }: Game) => {
+const GameCard = ({ game }: { game: Game }) => {
   return (
     <>
       <Card borderRadius={10} overflow={'hidden'}>

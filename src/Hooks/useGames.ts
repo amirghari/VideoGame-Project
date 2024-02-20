@@ -3,7 +3,6 @@ import apiClient from "../services/api-client"
 import { CanceledError } from "axios"
 
 
-
 export interface Platform {
     id: number
     name: string
@@ -37,7 +36,6 @@ useEffect(() => {
 
     return () => controller.abort()
   }, [])
-
     return { games, error }
 }
 
