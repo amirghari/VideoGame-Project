@@ -7,7 +7,7 @@ import getNewImageUrl from '../services/getNewImageUrl'
 const GameCard = ({ game }: { game: Game }) => {
   return (
     <>
-      <Card width={'300px'} borderRadius={10} overflow={'hidden'}>
+      <Card width={'300px'} borderRadius={10} overflow={'hidden'} marginX={2}>
         <Image src={getNewImageUrl(game.background_image)} />
         <CardBody>
           <Heading fontSize={'2xl'}>{game.name}</Heading>

@@ -15,7 +15,7 @@ export interface Game {
     parent_platforms: {platform : Platform}[]
     metacritic: number
   }
-  interface FetchGameResponse {
+  export interface FetchGameResponse {
     count: number
     results: Game[]
   }
